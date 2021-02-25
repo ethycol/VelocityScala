@@ -1,0 +1,25 @@
+plugins {
+    id 'scala'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+group 'io.learn01'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'velocity'
+        url 'https://nexus.velocitypowered.com/repository/maven-public'
+    }
+}
+
+dependencies {
+    implementation 'org.scala-lang:scala3-library_3.0.0-RC1:3.0.0-RC1'
+    compile 'com.velocitypowered:velocity-api:1.1.4'
+    annotationProcessor 'com.velocitypowered:velocity-api:1.1.4'
+}
+
+test {
+    useJUnitPlatform()
+}

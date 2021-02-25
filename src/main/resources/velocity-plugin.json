@@ -1,0 +1,12 @@
+{
+  "id": "velocityscala",
+  "name": "VelocityScala",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "A cross-platform Minecraft plugin framework",
+  "url": "https://example.org",
+  "authors": [
+    "You"
+  ],
+  "dependencies": [],
+  "main": "io.learn01.velocityscala.VelocityScala"
+}
